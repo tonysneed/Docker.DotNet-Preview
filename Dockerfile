@@ -1,7 +1,7 @@
 # NOTE: Set the DOTNET_VERSION environment variable to the desired version.
 
 # Build the image:
-# docker build -t tonysneed/dotnet-preview .
+# docker build -t tonysneed/dotnet-preview:1.0.0-rc2-002659 .
 
 FROM buildpack-deps:trusty-scm
 

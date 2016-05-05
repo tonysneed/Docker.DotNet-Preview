@@ -1,14 +1,14 @@
 # NOTE: Set the DOTNET_VERSION environment variable to the desired version.
 
 # Build the image:
-# docker build -t tonysneed/dotnet-preview:1.0.0-rc2-002659 .
+# docker build -t tonysneed/dotnet-preview:1.0.0-rc2-002673 .
 
 FROM buildpack-deps:trusty-scm
 
 MAINTAINER Anthony Sneed
 
 # DotNet CLI version
-ENV DOTNET_VERSION=1.0.0-rc2-002659
+ENV DOTNET_VERSION=1.0.0-rc2-002673
 
 # Work around https://github.com/dotnet/cli/issues/1582 until Docker releases a
 # fix (https://github.com/docker/docker/issues/20818). This workaround allows
